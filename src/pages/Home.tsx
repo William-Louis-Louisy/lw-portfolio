@@ -1,5 +1,5 @@
 import Brick from "../components/Brick";
-import Luv from "../components/Luv";
+// import Luv from "../components/Luv";
 
 function Home() {
   const totalKnobs = () => {
@@ -83,9 +83,9 @@ function Home() {
       {/* REFERENCES block */}
       <div>References</div>
       <div>Contact me form</div>
-      <div className="flex flex-col items-center justify-center h-screen w-full">
+      {/* <div className="flex flex-col items-center justify-center h-screen w-full">
         <Luv />
-      </div>
+      </div> */}
     </div>
   );
 }
